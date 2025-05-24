@@ -1,0 +1,42 @@
+cd ~/ros2wp
+source ~/ros2_iron/install/setup.bash
+ros2 node list
+
+# turorial 
+# new terminal
+ros2 run demo_nodes_cpp talker
+# new terminal
+ros2 run demo_nodes_cpp listener
+# new terminal
+rqt_grap #show the nodes conection
+
+# 2 play with turtles
+ros2 run turtlesim turtlesim_node
+# new terminal
+ros2 run turtlesim turtle_teleop_key
+# new terminal
+rqt_graph
+
+# 3 setting the bahrc https://www.youtube.com/watch?v=3GbrKQ7G2P0
+it is how you create workspaca as a place to create nodes and code
+Bash
+
+#4 create package https://www.youtube.com/watch?v=iBGZ8LEvkCY
+# create package:
+cd ~/ros2wp/src
+ros2 pkg create my_robot_controller --build-type ament_python --dependencies rclpy
+colcon build
+# if error for py package need to downgrade pip3 setuptools
+pip3 list | grep setuptools
+pip3 install setuptools==58.2.0 #does not work
+
+#5 creating nodes
+cd ~/ros2wp/src/my_robot_controller/my_robot_controller 
+touch my_first_node.py
+chmod +x my_first_node.py #executable permission
+cd ~/ros2wp/src/my_robot_controller
+code .
+
+
+
+
