@@ -1,0 +1,17 @@
+Usefull and woking links:
+
+Git:
+https://blog.laromierre.com/post/configure-ssh-clone-github-repos-raspberry-pi/
+
+NVMe:
+https://learn.pimoroni.com/article/getting-started-with-nvme-base
+
+Ros2 Iron
+https://forums.raspberrypi.com/viewtopic.php?t=361746
+
+Hailo
+https://github.com/hailo-ai/hailo-rpi5-examples
+- dependency has to be installed
+https://www.raspberrypi.com/documentation/computers/ai.html
+
+
