@@ -20,19 +20,10 @@ not working
 https://github.com/ozandmrz/raspberry_pi_visual_slam
 not workint
 
-UUID change for PI 5
-https://forums.raspberrypi.com/viewtopic.php?t=330067
+UUID for clone
+sudo apt install -y gparted
+sudo apt install -y mtools
+blkid
 
-code:
-sudo umount /dev/mmcblk0p1
-newdiskid="1"
-sdX="mmcblk0p1"
-sudo fdisk /dev/sdX > /dev/null <<EOF
-x
-i
-0x$newdiskid
-r
-w
-EOF
 
 
