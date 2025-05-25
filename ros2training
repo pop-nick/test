@@ -37,6 +37,7 @@ chmod +x my_first_node.py #executable permission
 cd ~/ros2wp/src/my_robot_controller
 code .
 
-
+ros2 humble training node working
+https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Writing-A-Simple-Cpp-Publisher-And-Subscriber.html
 
 
