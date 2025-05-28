@@ -15,6 +15,8 @@ https://github.com/hailo-ai/hailo-rpi5-examples
 https://www.raspberrypi.com/documentation/computers/ai.html
 
 Rplidar
+
+
 https://wiki.hshl.de/wiki/index.php/RPLidar_with_ROS2_and_RVIZ not workinghttps://index.ros.org/p/rplidar_ros/
 not working
 https://github.com/ozandmrz/raspberry_pi_visual_slam
@@ -25,5 +27,6 @@ sudo apt install -y gparted
 sudo apt install -y mtools
 blkid
 
+rviz2 https://robotics.stackexchange.com/questions/111436/rviz2-is-not-working-in-ros2-jazzy
 
 
